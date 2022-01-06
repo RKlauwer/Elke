@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Elke</title>
+    <title>ELKE.</title>
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
@@ -13,6 +13,52 @@
   </head>
 
   <body>
+      <div class="home-navbar">
+        <div class="top-banner">
+          <h5>Leer stap voor stap voor jezelf te beginnen</h5>
+        </div>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <a class="navbar-brand" href="/">ELKE.</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="/">HOME<span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/gratis">GRATIS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/over-mij">OVER MIJ</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="/werken-met-mij" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  WERKEN MET MIJ
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <a class="dropdown-item" href="/werken-met-mij">E-course</a>
+                  <a class="dropdown-item" href="online-programma">Online programma</a>
+                </div>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/contact">CONTACT</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+    </div>
     <%= yield %>
+    <div class="footer">
+      <div class="middle-info">
+        <p><a href="mailto:elke@elke.amsterdam">elke@elke.amsterdam</p>
+      </div>
+      <div class="footer-links">
+        <a href="https://www.instagram.com/elkevaneijk/?utm_medium=copy_link" target="_blank"><i class="fab fa-instagram"></i></a>
+        <a href="https://www.linkedin.com/in/elke-van-eijk-763b1b66/" target="_blank"><i class="fab fa-linkedin"></i></a>
+        <a href="mailto:elke@elke.amsterdam"><i class="fas fa-envelope"></i></a>
+      </div>
+    </div>
   </body>
 </html>
