@@ -1,0 +1,56 @@
+@import "home";
+
+.white-field-all-text {
+  background-color: rgb(245, 245, 245);
+  width: 60%;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  padding: 3%;
+  font-weight: lighter;
+  font-size: 14px;
+  position: relative;
+}
+.white-field-all-text li {
+  text-align: left;
+  font-size: 16px;
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+
+.green-field-all-text {
+  background-color: #DFE7E7;
+  width: 60%;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  padding: 3%;
+  font-weight: lighter;
+  font-size: 14px;
+  position: relative;
+}
+
+.green-field-all-text li {
+  text-align: left;
+  font-size: 16px;
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+.white-field-text {
+  background-color: rgb(245, 245, 245);
+  width: 100%;
+  text-align: center;
+  padding: 3%;
+  justify-content: center;
+  align-items: center;
+}
+.green-field-text {
+  background-color: #DFE7E7;
+  width: 100%;
+  text-align: center;
+  padding: 3%;
+  justify-content: center;
+  align-items: center;
+}

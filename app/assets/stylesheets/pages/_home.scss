@@ -12,12 +12,7 @@
   justify-content: center;
   align-items: center;
 }
-.main-container-green {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: #DFE7E7;
-}
+
 .white-field {
   background-color: rgb(245, 245, 245);
   width: 50%;
@@ -30,6 +25,7 @@
   position: relative;
 }
 
+
 .green-field {
   display: flex;
   background-color: #DFE7E7;
@@ -38,107 +34,9 @@
   justify-content: center;
   align-items: center;
 }
-
 .button {
   text-align: center;
 }
-
-.white-field-text {
-  background-color: rgb(245, 245, 245);
-  width: 100%;
-  text-align: center;
-  padding: 3%;
-  justify-content: center;
-  align-items: center;
-}
-.white-field-text-list {
-  background-color: rgb(245, 245, 245);
-  width: 100%;
-  padding: 3%;
-}
-.green-field-text {
-  background-color: #DFE7E7;
-  width: 100%;
-  text-align: center;
-  padding: 3%;
-  justify-content: center;
-  align-items: center;
-}
-.green-field-text-list {
-  display: flex;
-  background-color: #DFE7E7;
-  width: 100%;
-  padding: 3%;
-}
-.green-field-text-photo {
-  display: flex;
-  background-color: #DFE7E7;
-  width: 100%;
-  text-align: center;
-  padding: 3%;
-  justify-content: center;
-  align-items: center;
-}
-.white-field-text-photo {
-  display: flex;
-  background-color: rgb(245, 245, 245);
-  width: 100%;
-  text-align: center;
-  padding: 3%;
-  justify-content: center;
-  align-items: center;
-}
-
 strong {
     font-weight: bold;
-}
-
-.white-field-all-text li {
-  text-align: left;
-  font-size: 16px;
-  margin-top: 0;
-  margin-bottom: 1rem;
-}
-
-.green-field-all-text li {
-  text-align: left;
-  font-size: 16px;
-  margin-top: 0;
-  margin-bottom: 1rem;
-}
-
-.white-field-all-text {
-  background-color: rgb(245, 245, 245);
-  width: 60%;
-  justify-content: center;
-  align-content: center;
-  text-align: center;
-  padding: 3%;
-  font-weight: lighter;
-  font-size: 14px;
-  position: relative;
-}
-
-.green-field-all-text {
-  background-color: #DFE7E7;
-  width: 60%;
-  justify-content: center;
-  align-content: center;
-  text-align: center;
-  padding: 3%;
-  font-weight: lighter;
-  font-size: 14px;
-  position: relative;
-}
-.green-field-photo-text {
-  background-color: #DFE7E7;
-  width: 100%;
-  display: flex;
-}
-
-.new {
-  text-align: center;
-  padding: 3%;
-  justify-content: center;
-  align-items: center;
 }

@@ -1,0 +1,35 @@
+@import "home";
+
+.main-container-green {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #DFE7E7;
+}
+
+.green-field-text-photo {
+  display: flex;
+  background-color: #DFE7E7;
+  width: 100%;
+  text-align: center;
+  padding: 3%;
+  justify-content: center;
+  align-items: center;
+}
+
+.new {
+  text-align: center;
+  padding: 3%;
+  justify-content: center;
+  align-items: center;
+}
+
+.white-field-text-photo {
+  display: flex;
+  background-color: rgb(245, 245, 245);
+  width: 100%;
+  text-align: center;
+  padding: 3%;
+  justify-content: center;
+  align-items: center;
+}
